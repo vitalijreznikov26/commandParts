@@ -1,0 +1,4 @@
+$repo->checkout($commandParts[1]);
+            break;
+        case 'print':
+            $repo->printTree();
